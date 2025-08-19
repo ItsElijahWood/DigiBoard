@@ -1,0 +1,14 @@
+body {
+  font-family: PublicSans;
+}
+
+.footer {
+  background-color: black;
+  height: 150px;
+}
+
+@media (min-width: 2000px) {
+  .pcontainer {
+    padding-top: 110px !important;
+  }
+}

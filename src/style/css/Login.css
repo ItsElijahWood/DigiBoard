@@ -1,0 +1,70 @@
+body {
+  font-family: PublicSans;
+}
+
+@media (min-width: 2000px) {
+  #login-container {
+    padding-top: 400px !important;
+    top: 30% !important;
+  }
+  .login-title {
+    font-size: 70px !important;
+  }
+  #email_reset {
+    padding: 25px !important;
+    width: 500px !important;
+    font-size: 20px !important;
+  }
+  #password_reset {
+    padding: 25px !important;
+    width: 500px !important;
+    font-size: 20px !important;
+  }
+  .sign-in-button {
+    width: 170px !important;
+    padding: 25px !important;
+    font-size: 18px !important;
+  }
+  .rpass-a {
+    font-size: 23px !important;
+  }
+  #reset-password-container {
+    padding-top: 400px !important;
+    top: 30% !important;
+  }
+  .rtitle {
+    font-size: 55px !important;
+  }
+  #email-new {
+    padding: 25px !important;
+    width: 500px !important;
+    font-size: 20px !important;
+  }
+  #new-password {
+    padding: 25px !important;
+    width: 500px !important;
+    font-size: 20px !important;
+  }
+  .rbutton-l {
+    width: 150px !important;
+    padding: 25px !important;
+    font-size: 18px !important;
+  }
+  #verify_reset_container {
+    padding-top:  400px !important;
+    top: 30% !important;
+  }
+  .verify-title {
+    font-size: 55px !important;
+  }
+  #code {
+    padding: 25px !important;
+    width: 500px !important;
+    font-size: 20px !important;
+  }
+  .vbutton {
+    width: 170px !important;
+    padding: 25px !important;
+    font-size: 18px !important;
+  }
+}

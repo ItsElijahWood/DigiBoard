@@ -1,0 +1,15 @@
+{
+  "short_name": "Digiboard",
+  "name": "Digiboard",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "100x100",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#ffffff"
+}

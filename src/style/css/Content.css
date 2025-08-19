@@ -1,0 +1,49 @@
+body {
+  font-family: PublicSans;
+}
+
+.footer {
+  background-color: black;
+  height: 150px;
+}
+
+.buttons-c {
+  display: inline-block;
+  padding: 10px 24px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.05); 
+  transition: all 0.3s ease;
+}
+
+.conf-cog {
+  cursor: pointer; 
+  width: 35px;
+  height: 35px
+}
+
+.button-container {
+  padding-right: 1rem !important;
+}
+
+@media (min-width: 2000px) {
+  .conf-cog {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .buttons-c {
+    font-size: 20px !important;
+    padding: 20px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .mobile-class-files {
+    flex-direction: column !important;
+    align-items: 0 !important;
+  }
+}

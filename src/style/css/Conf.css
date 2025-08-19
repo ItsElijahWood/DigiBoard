@@ -1,0 +1,47 @@
+body {
+  font-family: PublicSans;
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .container-conf {
+    gap: 10px !important;
+  }
+}
+
+@media (min-width: 2000px) {
+  #n1bth,
+  #n2bth,
+  #n3bth,
+  #n4bth {
+    width: 120px !important;
+    font-size: 30px !important;
+    height: 43px !important;
+  }
+  .main-conf-container {
+    gap: 100px !important;
+  }
+  .l-1-c {
+    font-size: 23px !important;
+  } 
+  #colour-hex2,
+  #colour-hex3,
+  #colour-hex4,
+  #colour-hex5,
+  #colour-hex6,
+  #colour-hex7,
+  #colour-hex8,
+  #colour-hex1 {
+    font-size: 25px !important;
+  }
+  .fourk{
+    gap: 20px !important;
+  }
+  .save-button-conf {
+    font-size: 20px !important;
+    height: 60px !important;
+    padding: 10px !important;
+    width: 100px !important;
+  }
+}
+
